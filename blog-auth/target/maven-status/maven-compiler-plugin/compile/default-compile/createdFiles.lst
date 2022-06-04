@@ -1,0 +1,4 @@
+com\xuxin\controller\LoginController.class
+com\xuxin\security\SecurityConfig.class
+com\xuxin\security\LoginSuccessHandler.class
+com\xuxin\AuthApplication.class
