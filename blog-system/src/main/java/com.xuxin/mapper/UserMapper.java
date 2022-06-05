@@ -9,6 +9,10 @@ import java.util.List;
 @Mapper
 public interface UserMapper {
 
-//    @Select("select * from users")
     List<User> getAllUsers();
+    User getUserById(int id);
+    void addUser(User user);
+    void deleteUserById(int id);
+    void deleteUserByIds(int[] ids);
+    void updateUser(User user);
 }
